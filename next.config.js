@@ -12,7 +12,7 @@ module.exports = {
       {
         protocol: "https",
         hostname: "one-howdoilook-team2.onrender.com",
-        port: "10000",
+        // port: "10000",
       },
       // {
       //   protocol: "https",
