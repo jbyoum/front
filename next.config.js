@@ -10,9 +10,9 @@ module.exports = {
   images: {
     remotePatterns: [
       {
-        protocol: "http",
-        hostname: "localhost",
-        port: "3000",
+        protocol: "https",
+        hostname: "one-howdoilook-team2.onrender.com",
+        port: "10000",
       },
       // {
       //   protocol: "https",
