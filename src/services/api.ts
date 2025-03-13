@@ -233,7 +233,7 @@ export const getRankingStyles = async (
   urlParams.set('pageSize', RANKING_STYLES_PAGE_SIZE.toString())
   const query = urlParams.toString()
 
-  const response = await fetch(`${BASE_URL}/ranking?${query}`, {
+  const response = await fetch(`${BASE_URL}/styles/ranking?${query}`, {
     next: { tags: ['rankingStyles'] },
   })
   const { currentPage, totalPages, totalItemCount, data } =
